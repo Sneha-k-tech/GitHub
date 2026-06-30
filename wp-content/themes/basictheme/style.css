@@ -1,0 +1,39 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: https://example.com/my-custom-theme
+Author: Your Name
+Author URI: https://example.com
+Description: A custom starter theme for WordPress.
+Version: 1.0
+Requires PHP: 7.4
+Requires at least: 6.0
+Tested up to: 6.6
+Text Domain: my-custom-theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
