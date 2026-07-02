@@ -1,0 +1,24 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup/
+wp-content/cache/
+wp-content/w3tc/
+wp-content/wp-cache-config.php
+
+# Logs & temp
+*.log
+error_log
+wp-content/debug.log
+
+# Sensitive files
+.htaccess
+wp-config-sample.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use any build tools)
+node_modules/
