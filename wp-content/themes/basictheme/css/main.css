@@ -1,0 +1,213 @@
+/* ==========================================================================
+   Custom Theme - main.css
+   Bootstrap 5 based homepage styles
+   ========================================================================== */
+
+:root {
+    --color-primary: #4f46e5;
+    --color-primary-dark: #3f37c9;
+    --color-dark: #1f2937;
+    --color-muted: #6b7280;
+    --color-light-bg: #f8f9fc;
+    --radius-lg: 16px;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--color-dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Reusable Utility Classes
+   ========================================================================== */
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--color-dark);
+}
+
+.text-muted-custom {
+    color: var(--color-muted);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.rounded-custom {
+    border-radius: var(--radius-lg);
+}
+
+.btn-primary-custom {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--color-primary-dark);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.site-header {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.site-logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+.navbar-nav .nav-link {
+    color: var(--color-dark);
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-primary);
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero-section {
+    background-color: var(--color-light-bg);
+}
+
+.hero-title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    color: var(--color-dark);
+}
+
+.hero-text {
+    margin-bottom: 2rem;
+}
+
+.hero-image-wrap {
+    text-align: center;
+}
+
+.hero-image {
+    border-radius: var(--radius-lg);
+}
+
+/* ==========================================================================
+   Icon Box (Feature Blocks)
+   ========================================================================== */
+
+.icon-box {
+    padding: 30px 20px;
+    height: 100%;
+    border-radius: var(--radius-lg);
+    background-color: #fff;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.icon-box:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
+}
+
+.icon-box-icon {
+    margin-bottom: 1rem;
+}
+
+.icon-box-icon img {
+    border-radius: 50%;
+}
+
+.icon-box-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+/* ==========================================================================
+   About Section
+   ========================================================================== */
+
+.about-section {
+    background-color: #ffffff;
+}
+
+/* ==========================================================================
+   CTA Section
+   ========================================================================== */
+
+.cta-section {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.cta-text {
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+    background-color: var(--color-dark);
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 15px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* ==========================================================================
+   Responsive Adjustments
+   ========================================================================== */
+
+@media (max-width: 991.98px) {
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .section-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero-image-wrap {
+        margin-top: 30px;
+    }
+}
