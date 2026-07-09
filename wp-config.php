@@ -89,6 +89,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define('WP_ENVIRONMENT_TYPE', 'local');
 
 
 /* That's all, stop editing! Happy publishing. */
